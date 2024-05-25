@@ -11,7 +11,7 @@ namespace PaximumTest.PxmModels.LoginModels
         {
             var client = new HttpClient();
             var request = new HttpRequestMessage();
-            var bodyString = "{\"Agency\": \"PXM25520\",  \"User\": \"USR1\",  \"Password\": \"zaren!23\"}";
+            var bodyString = "{\"Agency\": \"PXM25520\",  \"User\": \"USR1\",  \"Password\": \"test!23\"}";
             var content = new StringContent(bodyString, Encoding.UTF8, "application/json");
             request.RequestUri = new Uri("http://service.stage.paximum.com/v2/api/authenticationservice/login");
             request.Method = HttpMethod.Post;
