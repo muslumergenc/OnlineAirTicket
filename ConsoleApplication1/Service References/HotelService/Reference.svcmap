@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="795682f7-7ec0-4bf7-b77f-077000e775da" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="D:\travelport-uapi-tutorial-c-sharp-master\ConsoleApplication1\ConsoleApplication1\Wsdl\hotel_v52_0\Hotel.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AbstractHotelServices1.wsdl" MetadataType="Wsdl" ID="6d346e2a-1e57-47b8-b014-aa4b139134d3" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/hotel_v52_0/HotelAbstract.wsdl" />
+    <MetadataFile FileName="HotelReqRsp1.xsd" MetadataType="Schema" ID="d175f40d-c019-4904-8d40-55ba66787dc8" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/hotel_v52_0/HotelReqRsp.xsd" />
+    <MetadataFile FileName="Hotel1.xsd" MetadataType="Schema" ID="a32f4eb4-e5bf-478f-be82-9178e3222b48" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/hotel_v52_0/Hotel.xsd" />
+    <MetadataFile FileName="HotelServices1.wsdl" MetadataType="Wsdl" ID="c5fb5c7b-4d73-470b-8937-9e6c3461871c" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/hotel_v52_0/Hotel.wsdl" />
+    <MetadataFile FileName="CommonReqRsp1.xsd" MetadataType="Schema" ID="74a65e54-fa28-46fd-aef3-04463abba5fd" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/common_v52_0/CommonReqRsp.xsd" />
+    <MetadataFile FileName="Common1.xsd" MetadataType="Schema" ID="06882e9e-1583-48e8-aaff-7de10cf429a4" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/common_v52_0/Common.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

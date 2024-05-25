@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="15e82937-76a7-4d83-8f05-38e5ec3a7e1b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="D:\travelport-uapi-tutorial-c-sharp-master\ConsoleApplication1\ConsoleApplication1\Wsdl\system_v32_0\System.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SystemService2.wsdl" MetadataType="Wsdl" ID="b71b1af2-0724-4075-9be7-8def323a64c9" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/system_v32_0/System.wsdl" />
+    <MetadataFile FileName="Common1.xsd" MetadataType="Schema" ID="d8fc2565-e206-4f25-91fb-67782ac8f379" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/common_v32_0/Common.xsd" />
+    <MetadataFile FileName="System1.xsd" MetadataType="Schema" ID="cd6c29d6-ed11-4078-850b-0152375ead1b" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/system_v32_0/System.xsd" />
+    <MetadataFile FileName="SystemService21.wsdl" MetadataType="Wsdl" ID="30b7cfb7-a038-4593-88f3-88d95f1429ab" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/system_v32_0/SystemAbstract.wsdl" />
+    <MetadataFile FileName="CommonReqRsp1.xsd" MetadataType="Schema" ID="d185b180-564c-4e79-87a2-05a9794a5db1" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/common_v32_0/CommonReqRsp.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

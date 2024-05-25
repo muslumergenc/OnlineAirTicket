@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="89972320-b3b9-4d5e-8252-bec14abb64f4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="D:\travelport-uapi-tutorial-c-sharp-master\ConsoleApplication1\ConsoleApplication1\Wsdl\universal_v52_0\UniversalRecord.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Common1.xsd" MetadataType="Schema" ID="8929100a-57da-48fd-8a0a-64b077d45582" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/common_v52_0/Common.xsd" />
+    <MetadataFile FileName="UniversalRecordServices1.wsdl" MetadataType="Wsdl" ID="0815b20f-c656-417b-8768-586c6da83937" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/universal_v52_0/UniversalRecord.wsdl" />
+    <MetadataFile FileName="AbstractUniversalRecordServices1.wsdl" MetadataType="Wsdl" ID="e5e363e1-78f2-4c7c-8882-523620a2c5e7" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/universal_v52_0/UniversalRecordAbstract.wsdl" />
+    <MetadataFile FileName="Cruise1.xsd" MetadataType="Schema" ID="0328ee09-633c-473b-99ff-4ee26f903e18" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/cruise_v52_0/Cruise.xsd" />
+    <MetadataFile FileName="SessionContext_v11.xsd" MetadataType="Schema" ID="94116189-8f29-416f-beb5-efbfcccefc20" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/SessionContext_v1/SessionContext_v1.xsd" />
+    <MetadataFile FileName="Passive1.xsd" MetadataType="Schema" ID="6d828b50-7019-4c94-b030-8d8d5942dc19" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/passive_v52_0/Passive.xsd" />
+    <MetadataFile FileName="Hotel1.xsd" MetadataType="Schema" ID="0a03174f-1d89-4048-9678-123ff1f5e4a6" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/hotel_v52_0/Hotel.xsd" />
+    <MetadataFile FileName="CommonReqRsp1.xsd" MetadataType="Schema" ID="e051f33a-e6c0-4e4c-96f8-b54a18dce30a" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/common_v52_0/CommonReqRsp.xsd" />
+    <MetadataFile FileName="UniversalRecord1.xsd" MetadataType="Schema" ID="e8ca0563-a413-44fc-9387-107dc91e6cd1" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/universal_v52_0/UniversalRecord.xsd" />
+    <MetadataFile FileName="UniversalRecordReqRsp1.xsd" MetadataType="Schema" ID="abb1739c-d1e1-4896-8427-da433fccf96a" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/universal_v52_0/UniversalRecordReqRsp.xsd" />
+    <MetadataFile FileName="Vehicle1.xsd" MetadataType="Schema" ID="9c902750-b9aa-4d27-92cd-a866da55baf6" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/vehicle_v52_0/Vehicle.xsd" />
+    <MetadataFile FileName="Air1.xsd" MetadataType="Schema" ID="3f44e761-5e0b-4770-bb48-dda60fceb27d" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/air_v52_0/Air.xsd" />
+    <MetadataFile FileName="Rail1.xsd" MetadataType="Schema" ID="94f8626d-a45a-4c4d-828f-be982127ec5f" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/rail_v52_0/Rail.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

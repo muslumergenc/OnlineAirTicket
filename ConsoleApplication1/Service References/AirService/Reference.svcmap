@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eda8a9f3-06b0-44d4-9747-cb429f520d07" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="D:\travelport-uapi-tutorial-c-sharp-master\ConsoleApplication1\ConsoleApplication1\Wsdl\air_v52_0\Air.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AirService2.wsdl" MetadataType="Wsdl" ID="d6bb99ee-f5d8-45c5-bf49-75097890e613" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/air_v52_0/AirAbstract.wsdl" />
+    <MetadataFile FileName="AirReqRsp1.xsd" MetadataType="Schema" ID="ccddd6dc-a332-45bf-ba0e-8191d2e8400a" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/air_v52_0/AirReqRsp.xsd" />
+    <MetadataFile FileName="AirService21.wsdl" MetadataType="Wsdl" ID="6fd09936-8583-4b4c-9ca3-e3aa89a1ee26" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/air_v52_0/Air.wsdl" />
+    <MetadataFile FileName="SessionContext_v11.xsd" MetadataType="Schema" ID="92128e02-d0b8-4aa5-9e91-02f2d235da30" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/SessionContext_v1/SessionContext_v1.xsd" />
+    <MetadataFile FileName="Air1.xsd" MetadataType="Schema" ID="27cb897c-ebec-4eb9-86bf-a1bcad7bc75c" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/air_v52_0/Air.xsd" />
+    <MetadataFile FileName="Rail1.xsd" MetadataType="Schema" ID="57bfae5e-68fc-48b5-a12e-6a0a9b6ad217" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/rail_v52_0/Rail.xsd" />
+    <MetadataFile FileName="CommonReqRsp1.xsd" MetadataType="Schema" ID="1fb4fe32-34b7-404f-a38a-3356de6829ce" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/common_v52_0/CommonReqRsp.xsd" />
+    <MetadataFile FileName="Common1.xsd" MetadataType="Schema" ID="cb9b70e5-b382-4622-991a-897d47bc77fb" SourceId="1" SourceUrl="file:///D:/travelport-uapi-tutorial-c-sharp-master/ConsoleApplication1/ConsoleApplication1/Wsdl/common_v52_0/Common.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
