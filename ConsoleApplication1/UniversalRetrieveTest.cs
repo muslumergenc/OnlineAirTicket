@@ -2,10 +2,7 @@
 using ConsoleApplication1.Utility;
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
@@ -18,25 +15,24 @@ namespace ConsoleApplication1
             UniversalRecordRetrieveRsp univRetRsp;
 
             univRetReq.TargetBranch = CommonUtility.GetConfigValue(ProjectConstants.G_TARGET_BRANCH);
-            
-            BillingPointOfSaleInfo billSaleInfo = new BillingPointOfSaleInfo();
-            billSaleInfo.OriginApplication = "UAPI";
+
+            BillingPointOfSaleInfo billSaleInfo = new BillingPointOfSaleInfo
+            {
+                OriginApplication = "UAPI"
+            };
 
             univRetReq.BillingPointOfSaleInfo = billSaleInfo;
-
             univRetReq.Item = urLocatorCode;            
-
             UniversalRecordRetrieveServicePortTypeClient client = new UniversalRecordRetrieveServicePortTypeClient("UniversalRecordRetrieveServicePort", WsdlService.UNIVERSAL_ENDPOINT);
             client.ClientCredentials.UserName.UserName = Helper.RetrunUsername();
-            client.ClientCredentials.UserName.Password = Helper.ReturnPassword();
-            
+            client.ClientCredentials.UserName.Password = Helper.ReturnPassword();            
             try
             {
                 var httpHeaders = Helper.ReturnHttpHeader();
                 client.Endpoint.EndpointBehaviors.Add(new HttpHeadersEndpointBehavior(httpHeaders));                
 
                 univRetRsp = client.service(null, null, univRetReq);                
-                //Console.WriteLine(univRetRsp.ResponseMessage.FirstOrDefault().Value);
+               // Console.WriteLine(univRetRsp.ResponseMessage.FirstOrDefault().Code);
 
                 if (univRetRsp != null)
                 {
@@ -49,8 +45,6 @@ namespace ConsoleApplication1
                         }
                     }
                 }
-
-
                 IEnumerator airReservationDetails = univRetRsp.UniversalRecord.Items.GetEnumerator();
 
                 String airLocatorCode;

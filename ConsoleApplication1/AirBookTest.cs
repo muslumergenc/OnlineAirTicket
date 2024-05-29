@@ -46,10 +46,10 @@ namespace ConsoleApplication1
                 var httpHeaders = Helper.ReturnHttpHeader();
                 client.Endpoint.EndpointBehaviors.Add(new HttpHeadersEndpointBehavior(httpHeaders));
 
-                /*SupportedVersions versions = new SupportedVersions();
+                SupportedVersions versions = new SupportedVersions();
 
-                versions.airVersion = "air_v29_0";
-                versions.urVersion = "universal_v29_0";*/
+                versions.airVersion = "air_v52_0";
+                versions.urVersion = "universal_v52_0";
 
                 reservationRsp = client.service(null, reservationReq);
                 Console.WriteLine(reservationRsp.UniversalRecord.CreateDate);
@@ -430,15 +430,15 @@ namespace ConsoleApplication1
         }
         private FormOfPayment[] AddFormOfPayment()
         {
-            List<FormOfPayment> payments = new List<FormOfPayment>();
+            List<FormOfPayment> fops = new List<FormOfPayment>();
 
             FormOfPayment fop = new FormOfPayment
             {
                 Key = "jwt2mcW1Qp27I2afpcCtAw==",
                 Type = "Cash"
             };
-            payments.Add(fop);
-            return payments.ToArray();
+            fops.Add(fop);
+            return fops.ToArray();
 
         }
         private BookingTraveler[] AddBookingTraveler(AirService.AirItinerary airItinerary)

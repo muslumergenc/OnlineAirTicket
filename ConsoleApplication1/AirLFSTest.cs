@@ -56,13 +56,13 @@ namespace ConsoleApplication1
             AirReq.AddPointOfSale(lowFareSearchReq, MY_APP_NAME);
 
             //try to limit the size of the return... not supported by 1G!
-            modifiers.MaxSolutions = string.Format("500");
+            modifiers.MaxSolutions = string.Format("1500");
             lowFareSearchReq.AirSearchModifiers = modifiers;
 
 
             //travel is for denver to san fransisco 2 months from now, one week trip
             SearchAirLeg outbound = AirReq.CreateSearchLeg(origin, destination);
-            AirReq.AddSearchDepartureDate(outbound, Helper.daysInFuture(30));
+            AirReq.AddSearchDepartureDate(outbound, Helper.daysInFuture(20));
             AirReq.AddSearchEconomyPreferred(outbound);
 
             //coming back

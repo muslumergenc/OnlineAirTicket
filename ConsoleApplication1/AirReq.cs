@@ -347,6 +347,7 @@ namespace ConsoleApplication1
             }
 
         }
+
         //public void getPNR(UniversalService.UniversalRecordRetrieveRsp uniRecRsp, string gPNR) // parameter is AirRetrieve ReservationRsp
 
         //{
